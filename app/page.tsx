@@ -54,7 +54,7 @@ export default function Home() {
 
 			<section className="safe-section pt-0">
 				<div className="safe-card p-5 text-center">
-					<p className="text-base md:text-lg text-neutral-700 leading-relaxed text-justify">
+					<p className="text-base md:text-lg text-neutral-700 leading-relaxed text-center">
 						Le donne sono il pilastro fondamentale della nostra società, custodi di vita, resilienza e progresso. Eppure,
 						troppo spesso, la loro sicurezza viene messa a rischio in contesti che dovrebbero essere protetti. SAFE MATE nasce
 						per colmare questo vuoto inaccettabile, trasformando il dolore in azione concreta. La nostra startup non è solo un
@@ -154,9 +154,7 @@ export default function Home() {
 											'order-1 min-w-0 flex-1 self-start lg:order-1'
 										)
 									}>
-									<p className="text-sm sm:text-base md:text-lg text-neutral-600 leading-relaxed text-justify">
-										{block.text}
-									</p>
+									<p className="text-sm sm:text-base lg:text-lg text-neutral-600 leading-relaxed">{block.text}</p>
 								</div>
 							</div>
 
