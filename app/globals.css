@@ -78,5 +78,5 @@ body::after {
 }
 
 .safe-section {
-  @apply mx-auto max-w-7xl px-5 py-14;
+  @apply mx-auto max-w-7xl p-5;
 }

@@ -97,7 +97,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="safe-section pt-2 space-y-10">
+			<section className="safe-section pt-2 space-y-5">
 				{previewBlocks.map((block, index) => {
 					const isLeftAligned = index % 2 === 0;
 
