@@ -21,9 +21,6 @@ export default function DashboardPage() {
 						backgroundImage:
 							"url('https://lh3.googleusercontent.com/aida-public/AB6AXuCwKy6Elj07ZkA8PYMccq9XSwVI0rEtFroIKiEjkoZO91qiVrQpmnoARH3-5LHCXu7LNzGULYParoY4FFV2vaTSKctSq3ox3Z6CfkyQWiti9kytTT9Ihafz5j4ZpH0TAkRKKTptPxxrSUswWK05nCfzEZshNzlffG0AOjSz0w9jUUerpCN6CoVEuL3PWIBTI2hEtFXjfodzknE1Ct-QZQ73fFd5UvfVoHXobspUHJyJ-lsRUfDZ55DH_hB5DEwRSFBWEHZFK_KVjQw')",
 					}}>
-					<div className="mx-auto mb-5 flex h-24 w-24 items-center justify-center rounded-full bg-white text-4xl text-sky-500">
-						😊
-					</div>
 					<h1 className="text-5xl font-semibold italic">Safe Mate</h1>
 					<p className="mt-2 text-white/90">La tua rete di sicurezza e supporto</p>
 				</div>
