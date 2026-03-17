@@ -42,6 +42,11 @@ export default function Home() {
 					style={{
 						backgroundImage:
 							"url('https://lh3.googleusercontent.com/aida-public/AB6AXuCiv2M5aBJZksIPk-YPaHUXWRPvWd6Ahr8mUooGsATKchmWchpIrccEI1t-0K9O17_UNF_KH3FbhBcQNedrx1GRD6WlHYhGdzcK9pggyYmbu3WJlNVrkSzxcJc4euv2wGWoMfK89uU9QJ_ULQHg-1bygizICZf3zCBx8nC1L-NYhj7l_1XkmizDxxvWVk99SCbkHYLEfwgyDkpZwtmK5DlJ3OcPQUpbAtKAzO3660mEgQcoiBqzyS32NWH_cWAhWfFfM4u9Egl1Byo')",
+						backgroundSize: 'cover',
+						backgroundPosition: 'center',
+						backgroundRepeat: 'no-repeat',
+						width: '100%',
+						height: 'auto',
 					}}>
 					<p className="text-xs uppercase tracking-[0.15em] text-white/80 mb-auto">Associazione per la sicurezza femminile</p>
 
