@@ -50,13 +50,13 @@
 		<main>
 			<section className="safe-section">
 				<div
-					className="safe-hero min-h-[56vh] flex items-end"
+					className="safe-hero min-h-[45vh] flex items-center justify-center after:absolute after:inset-0 after:bg-black/35 after:z-10 relative"
 					style={{
 						backgroundImage:
 							"url('https://lh3.googleusercontent.com/aida-public/AB6AXuArFey8vD-okSul5fNA7mpXcPY6THNZ7As_WnaefjpmJozLnXIEJ8HhgZQtGYn25IsKjXptORQomnMqmOrAP8Z2HpcGJaJFfeJb4DpojIaL8Of4LWEOC34s8qWZdA1kcGxMNdKMYsR50WBenRn3wMZMmulKMtsq4qU3vPnlbE6_rXI1XgvuebIFyoBz7eqhYc9dohODp8vimCoGyR-8QIWngxSdFje9GJ4yIKplVT4s0GVzTaTT3SUcdJ19M8OsVmGd1gUTuQUoM5Q')",
 					}}>
-					<div className="max-w-2xl text-white bg-black/35">
-						<h1 className="text-5xl font-semibold mb-4">Come funziona SafeMate</h1>
+						<div className="min-h-[40vh] flex flex-col justify-around gap-5 max-w-3xl text-white relative z-20">
+						<h1 className="text-5xl font-semibold">Come funziona SafeMate</h1>
 						<p className="text-white/90 text-lg leading-relaxed">
 							Prevenzione, rete locale, risposta rapida e strumenti digitali per trasformare il pericolo in protezione
 							concreta.
