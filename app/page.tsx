@@ -37,23 +37,23 @@ export default function Home() {
 	return (
 		<main>
 			<section className="safe-section">
-				<div
-					className="safe-hero min-h-[72vh] flex flex-col items-center justify-between text-center"
-					style={{
-						backgroundImage:
-							"url('https://lh3.googleusercontent.com/aida-public/AB6AXuCiv2M5aBJZksIPk-YPaHUXWRPvWd6Ahr8mUooGsATKchmWchpIrccEI1t-0K9O17_UNF_KH3FbhBcQNedrx1GRD6WlHYhGdzcK9pggyYmbu3WJlNVrkSzxcJc4euv2wGWoMfK89uU9QJ_ULQHg-1bygizICZf3zCBx8nC1L-NYhj7l_1XkmizDxxvWVk99SCbkHYLEfwgyDkpZwtmK5DlJ3OcPQUpbAtKAzO3660mEgQcoiBqzyS32NWH_cWAhWfFfM4u9Egl1Byo')",
-						backgroundSize: 'cover',
-						backgroundPosition: 'center',
-						backgroundRepeat: 'no-repeat',
-						width: '100%',
-						height: 'auto',
-					}}>
-					<p className="text-xs uppercase tracking-[0.15em] text-white/80 mb-auto">Associazione per la sicurezza femminile</p>
+				<div className="relative safe-hero h-[60vh] w-full aspect-9/16 p-0!">
+					<img
+						className="-z-1 absolute inset-0 min-h-full h-auto m-auto object-cover"
+						loading="eager"
+						fetchPriority="high"
+						src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiv2M5aBJZksIPk-YPaHUXWRPvWd6Ahr8mUooGsATKchmWchpIrccEI1t-0K9O17_UNF_KH3FbhBcQNedrx1GRD6WlHYhGdzcK9pggyYmbu3WJlNVrkSzxcJc4euv2wGWoMfK89uU9QJ_ULQHg-1bygizICZf3zCBx8nC1L-NYhj7l_1XkmizDxxvWVk99SCbkHYLEfwgyDkpZwtmK5DlJ3OcPQUpbAtKAzO3660mEgQcoiBqzyS32NWH_cWAhWfFfM4u9Egl1Byo"
+					/>
+					<div className="z-30 m-auto size-full flex flex-col items-center justify-center gap-5 p-5 text-white bg-linear-to-b from-black/75 via-transparent to-black/85">
+						<p className="text-xs uppercase tracking-[0.15em] text-white/80 mb-auto">
+							Associazione per la sicurezza femminile
+						</p>
 
-					<blockquote className=" text-white text-base md:text-lg leading-tight mt-auto text-center">
-						“ Nasciamo da un'esigenza che non può più essere trascurata, da un dolore che non può più rimanere inascoltato e
-						da un'anima che non smetterà di combattere. ”
-					</blockquote>
+						<blockquote className=" text-white text-base md:text-lg leading-tight mt-auto text-center">
+							“ Nasciamo da un'esigenza che non può più essere trascurata, da un dolore che non può più rimanere
+							inascoltato e da un'anima che non smetterà di combattere. ”
+						</blockquote>
+					</div>
 				</div>
 			</section>
 

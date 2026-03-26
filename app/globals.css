@@ -62,21 +62,13 @@ body::after {
   background-position: center;
 }
 
-.safe-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom right, rgba(18, 18, 18, 0.35), rgba(18, 18, 18, 0.6));
-}
 
-.safe-hero > * {
-  position: relative;
-}
+
 
 .safe-card {
   @apply rounded-2xl border border-white/70 bg-white/65 shadow-[0_8px_30px_rgba(0,0,0,0.10)] backdrop-blur-xl transition-all hover:bg-white/75;
 }
 
 .safe-section {
-  @apply mx-auto max-w-7xl p-5;
+  @apply mx-auto max-w-7xl px-5 py-2.5;
 }
