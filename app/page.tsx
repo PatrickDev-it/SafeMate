@@ -4,31 +4,35 @@ import Link from 'next/link';
 export default function Home() {
 	const previewBlocks = [
 		{
-			tag: 'Preview 01 — Protezione immediata',
-			title: 'SOS silenzioso e alert intelligente ai contatti fidati',
-			text: 'Le donne sono il pilastro fondamentale della nostra società, custodi di vita, resilienza e progresso. Eppure, troppo spesso, la loro sicurezza viene messa a rischio in contesti che dovrebbero essere protetti. SAFE MATE nasce per colmare questo vuoto inaccettabile, trasformando il dolore in azione concreta. La nostra startup non è solo un progetto tecnologico, ma una promessa solenne di protezione e ascolto.',
+			tag: 'Protezione immediata',
+			title: 'SOS silenzioso, alert intelligente ai contatti fidati',
+			text: 'Troppe volte la sicurezza delle donne viene messa a rischio, anche in contesti che dovrebbero proteggerle. Safe-Mate nasce per trasformare il dolore e la paura in azione concreta. Non siamo solo una start-up: siamo la risposta a un problema ignorato troppo a lungo.',
 			items: [
-				'Pulsante SOS con fallback vocale',
-				'Invio automatico posizione in tempo reale',
-				'Storico eventi protetto per supporto legale',
+				'Pulsante SOS silenzioso e invio posizione',
+				'Alert automatico ai contatti fidati',
+				'Collaborazione con società di pronto intervento',
 			],
 			accent: 'bg-rose-500',
 		},
 		{
-			tag: 'Preview 02 — Percorso sicuro',
-			title: 'Navigazione assistita con zone verificate dalla community',
-			text: "Crediamo fermamente che ogni donna meriti di camminare nel mondo senza paura, supportata da una rete che non dorme mai. Il nostro impegno è totale: sviluppare strumenti che possano prevenire la violenza e offrire supporto immediato. Non ci fermeremo finché la sicurezza non sarà un diritto garantito e non un privilegio. Ogni anima che combatte trova in noi un alleato fedele. Insieme, possiamo costruire un futuro dove il silenzio è sostituito dalla forza e la paura dalla libertà. La nostra missione è onorare ogni storia con l'innovazione e il coraggio.",
-			items: ['Heatmap dei punti segnalati', 'Check-in automatici temporizzati', 'Condivisione percorso con rete personale'],
+			tag: 'Navigazione sicura',
+			title: 'Zone verificate dalla community',
+			text: 'Ogni donna ha il diritto di vivere senza paura, sostenuta da una rete che non dorme mai. Safe-Mate sviluppa strumenti per prevenire la violenza e supportare le donne in ogni passo, aiutandole a scrivere un nuovo capitolo della loro vita. Safe-Mate non è solo tecnologia: è la voce di tutte le donne che vogliono cambiare il proprio destino.',
+			items: [
+				'Heatmap delle zone sicure',
+				'Check-in automatici e percorsi condivisi',
+				'Community attiva e solidale',
+			],
 			accent: 'bg-sky-500',
 		},
 		{
-			tag: 'Preview 03 — Centro supporto',
-			title: 'Supporto psicologico, legale e territoriale in un unico hub',
-			text: "Safe Mate riduce il time-gap tra il manifestarsi del pericolo e l'intervento di persone competenti, coinvolgendo società di pronto intervento e sicurezza privata come filtro tra la violenza e le forze dell'ordine.",
+			tag: 'Supporto completo',
+			title: 'Supporto psicologico, legale e territoriale',
+			text: 'Offriamo un punto di riferimento unico per ricevere supporto psicologico, legale e territoriale, grazie alla collaborazione con professionisti e centri specializzati.',
 			items: [
-				'Una comunità attiva di supporto pronta a intervenire e fornire rifugio sicuro.',
-				"Protezione assoluta dei dati e dell'identità per garantire la massima libertà di ogni utente.",
-				'Chat tematiche nazionali e locali, corsi, badge e strumenti di prevenzione.',
+				'Assistenza psicologica e legale',
+				'Rifugi sicuri e centri antiviolenza',
+				'Consulenze e aiuto sul territorio',
 			],
 			accent: 'bg-violet-500',
 		},
@@ -60,10 +64,13 @@ export default function Home() {
 			<section className="safe-section pt-0">
 				<div className="safe-card p-5 text-center">
 					<p className="text-base md:text-lg text-neutral-700 leading-relaxed text-center">
-						Le donne sono il pilastro fondamentale della nostra società, custodi di vita, resilienza e progresso. Eppure,
-						troppo spesso, la loro sicurezza viene messa a rischio in contesti che dovrebbero essere protetti. SAFE MATE nasce
-						per colmare questo vuoto inaccettabile, trasformando il dolore in azione concreta. La nostra startup non è solo un
-						progetto tecnologico, ma una promessa solenne di protezione e ascolto.
+						<strong>Safe-Mate: la sicurezza che nasce dal coraggio</strong><br/>
+						SOS silenzioso, alert intelligente ai contatti fidati.<br/>
+						Troppe volte la sicurezza delle donne viene messa a rischio, anche in contesti che dovrebbero proteggerle. Safe-Mate nasce per trasformare il dolore e la paura in azione concreta. Non siamo solo una start-up: siamo la risposta a un problema ignorato troppo a lungo.<br/>
+						Navigazione assistita con zone verificate dalla community.<br/>
+						Crediamo che ogni donna abbia il diritto di vivere senza paura, sostenuta da una rete che non dorme mai. Safe-Mate sviluppa strumenti per prevenire la violenza e supportare le donne in ogni passo, aiutandole a scrivere un nuovo capitolo della loro vita. Safe-Mate non è solo tecnologia: è la voce di tutte le donne che vogliono cambiare il proprio destino.<br/>
+						Supporto psicologico, legale e territoriale in un unico hub.<br/>
+						Offriamo un punto di riferimento unico per ricevere supporto psicologico, legale e territoriale, grazie alla collaborazione con professionisti e centri specializzati.
 					</p>
 					<div className="mt-6 flex flex-wrap justify-center gap-3">
 						<Link href="/come-funziona" className="rounded-full px-6 py-3 font-semibold bg-safemate-primary text-neutral-900">
@@ -188,9 +195,10 @@ export default function Home() {
 							Un’associazione comprovata, non solo un’app.
 						</h2>
 						<p className="text-neutral-600 leading-relaxed mb-5 text-justify">
-							Il punto di forza di Safe Mate non è la singola donna ma tutte le donne che formano la community: un Eden al
-							femminile, in cui muoversi senza paura con un senso di appartenenza reale. Il primo pensiero non è la paura
-							ma la reazione.
+							<strong>Partner e iniziative</strong><br/>
+							Gallerie d’arte solidali: raccontiamo, attraverso l’arte, la forza e il dolore di ogni donna vittima di violenza, ispirando le nuove generazioni a fare la differenza.<br/>
+							Centri antiviolenza: collaboriamo con centri specializzati per offrire supporto psicologico e legale nei momenti più delicati.<br/>
+							Rifugi sicuri: garantiamo, insieme ad associazioni e volontarie, un luogo sicuro e tutto il supporto necessario a chi fugge da situazioni di pericolo.
 						</p>
 						<div className="flex flex-wrap gap-3 justify-center lg:justify-start">
 							<Link

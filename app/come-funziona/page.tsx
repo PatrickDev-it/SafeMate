@@ -1,48 +1,48 @@
 ﻿export default function ComeFunzionaPage() {
 	const chatTypes = [
 		{
-			label: 'Il Fondamento della Sicurezza',
-			content: 'Le donne sono il pilastro fondamentale della nostra società, custodi di vita, resilienza e progresso. Eppure, troppo spesso, la loro sicurezza viene messa a rischio in contesti che dovrebbero essere protetti.',
+			label: 'Le fondamenta di Safe-Mate',
+			content: 'Le donne sono il fondamento della nostra società, esempio di resilienza e progresso. Troppo spesso il loro futuro viene messo a rischio proprio dove dovrebbero essere protette.',
 		},
 		{
-			label: 'La Nostra Missione',
-			content: "SAFE MATE nasce per colmare questo vuoto inaccettabile, trasformando il dolore in un'azione concreta. La nostra startup non è solo un progetto tecnologico, ma la promessa di dare vita ad un cambiamento nella società in cui viviamo, protezione e ascolto a coloro che non hanno la forza di combattere da sole.",
+			label: 'La missione',
+			content: 'Safe-Mate nasce per colmare il vuoto tra il pericolo e l’intervento delle forze dell’ordine, trasformando il dolore e la paura in forza e tenacia, per cambiare davvero la società.',
 		},
 		{
-			label: "L'Impegno Totale",
-			content: 'Crediamo fermamente che ogni donna meriti di camminare nel mondo senza timore, supportata da chi come lei si è stancata di avere paura. Il nostro impegno è totale: sviluppare strumenti che possano prevenire la violenza che ogni giorno le donne vivono ed offrire supporto immediato a chi si trova da sola ad affrontare il pericolo.',
+			label: 'Impegno totale',
+			content: 'Crediamo nell’autodeterminazione e nella libertà di essere donna, senza timori o imposizioni. Il nostro impegno è fornire tutti i mezzi necessari per non essere più vittime e raggiungere i propri obiettivi, umani ed economici.',
 		},
 		{
-			label: 'Alleati per la Libertà',
-			content: 'Non ci fermeremo finché la sicurezza non sarà un diritto garantito ad ogni donna e non un privilegio di poche. Ogni anima combattente trova in noi un alleato che sarà sempre al suo fianco.',
+			label: 'Un unico obiettivo',
+			content: 'Non ci fermeremo finché ogni donna non avrà la certezza di non essere più sola.',
 		},
 		{
-			label: 'Il Futuro che Vogliamo',
-			content: "Insieme, possiamo costruire un futuro dove il silenzio non è più un'opzione, dove le donne hanno il coraggio di combattere per la libertà di essere se stesse. La nostra missione è onorare ogni storia facendo sì che il sacrificio di coloro che non sono più tra noi non sia stato vano.",
+			label: 'Il futuro che vogliamo',
+			content: 'Insieme possiamo costruire un futuro dove il silenzio non è più un’opzione e ogni donna ha una voce che non passerà inosservata. La nostra missione è onorare il sacrificio di chi non è più tra noi.',
 		},
 		{
-			label: 'La Mappa Reale',
-			content: 'Non ci basiamo sulle statistiche ufficiali per la sicurezza delle donne. Ma su una mappa costruita sulle percezioni reali e sul vissuto quotidiano delle utenti.',
+			label: 'La mappa della fiducia',
+			content: 'Non ci basiamo sulle statistiche ufficiali, ma su una mappa costruita sulle percezioni reali e sul vissuto quotidiano delle utenti.',
 		},
 		{
-			label: 'Protezione Discreta',
-			content: 'Interfaccia nascosta e specifica per situazioni di violenza domestica, per dare modo alla vittima di chiedere supporto alla community senza destare sospetti.',
+			label: 'Protezione discreta',
+			content: 'Interfaccia nascosta e specifica per situazioni di violenza domestica, per chiedere supporto senza destare sospetti.',
 		},
 		{
-			label: 'Risposta Rapida',
-			content: 'La posizione viene temporaneamente condivisa in modo approssimativo per permettere ai rinforzi di poter intervenire nel minor tempo possibile.',
+			label: 'Risposta rapida',
+			content: 'La posizione viene condivisa in modo approssimativo per permettere ai rinforzi di intervenire nel minor tempo possibile.',
 		},
 		{
-			label: 'La Community che Premia',
-			content: "Premiamo le azioni positive che ogni membro della community svolge all'interno della community. L'utente guadagna badge e punti diventando una 'Safe Guard' nella comunità tramite attività di supporto o volontariato nell'associazione. Offriamo corsi e quiz integrati per aumentare la consapevolezza sulla sicurezza e sulla violenza, nonché corsi di autodifesa per donne.",
+			label: 'La community che premia',
+			content: 'Premiamo le azioni positive: ogni buona azione fa guadagnare punti e badge personali, diventando “safe-guard” tramite attività di supporto o volontariato. Offriamo corsi e quiz per aumentare la consapevolezza sociale e corsi di autodifesa al femminile.',
 		},
 		{
-			label: 'Partnership per il Cambiamento',
-			content: 'Collaboriamo attivamente con associazioni e fondazioni per garantire standard di sicurezza senza precedenti. Attraverso partnership con brand che al centro del loro business hanno il benessere e la valorizzazione delle donne.',
+			label: 'Partnership per il cambiamento',
+			content: 'Collaboriamo con associazioni e fondazioni per garantire standard di sicurezza senza precedenti, insieme a brand che mettono al centro il benessere e la valorizzazione delle donne.',
 		},
 		{
-			label: 'Empowerment Economico',
-			content: 'offriamo in-store training per la difesa personale e supportiamo attivamente le startup al femminile incentivando così la crescita personale ed economica di ogni donna.',
+			label: 'Empowerment economico',
+			content: 'Supportiamo economicamente le donne del futuro, finanziando e aiutando lo sviluppo di start-up femminili e offrendo formazione dedicata.',
 		},
 	];
 

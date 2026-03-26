@@ -60,7 +60,9 @@ export default function CommunityPage() {
 		<main className="safe-section max-w-3xl">
 			<div className="safe-card p-6 mb-6">
 				<h1 className="text-4xl font-semibold mb-1">Community</h1>
-				<p className="text-neutral-500">Connettiti con altre donne</p>
+				<p className="text-neutral-500">
+					La community di Safe-Mate è uno spazio sicuro dove confrontarsi, condividere esperienze, trovare supporto e costruire insieme nuove opportunità. Chat, forum, eventi e iniziative per crescere insieme: qui ogni donna può sentirsi parte di una rete reale e solidale.
+				</p>
 			</div>
 
 			<div className="safe-card p-2 mb-5 flex gap-2">

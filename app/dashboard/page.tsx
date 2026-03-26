@@ -1,8 +1,8 @@
 const actions = [
-	['SOS Emergenza', 'Aiuto immediato'],
-	['Trova aiuto', 'Donne vicino a te'],
-	['Community', 'Chat e supporto'],
-	['Corsi', 'Impara e cresci'],
+	['SOS Emergenza', 'Offriamo aiuto immediato grazie alla collaborazione con le migliori società di pronto intervento. Ogni intervento è a carico dell’associazione.'],
+	['Trova aiuto', 'L’allarme viene inoltrato a tutte le donne presenti nel perimetro di sicurezza scelto dall’utente.'],
+	['Community', 'Interagisci tramite chat locali e nazionali, fai crescere il tuo business supportata da una community reale e solidale, sostenendo le imprese femminili.'],
+	['Corsi', 'Safe-Mate offre corsi di sensibilizzazione contro la violenza fisica e psicologica, e corsi di autodifesa in centri specializzati per donne che non vogliono più essere vittime.'],
 ];
 
 const stats = [
@@ -24,8 +24,8 @@ export default function DashboardPage() {
 						backgroundPosition: 'center',
 						backgroundRepeat: 'no-repeat',
 					}}>
-					<h1 className="text-5xl font-semibold italic text-white pt-5">Safe Mate</h1>
-					<p className="mt-2 text-white/85">La tua rete di sicurezza e supporto</p>
+					<h1 className="text-5xl font-semibold italic text-white pt-5">Safe-Mate</h1>
+					<p className="mt-2 text-white/85">La tua rete di sicurezza, supporto e crescita</p>
 				</div>
 
 				<section className="mb-8">
