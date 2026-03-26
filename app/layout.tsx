@@ -47,8 +47,8 @@ export default function RootLayout({
 					<nav className="relative mx-auto max-w-7xl px-5 py-4">
 						<div className="grid md:hidden grid-cols-3 items-center text-sm font-medium text-neutral-700">
 							<div className="justify-self-start">
-								<Link href="/community" className="apple-nav-link">
-									Community
+								<Link href="/come-funziona" className="apple-nav-link">
+									Mission
 								</Link>
 							</div>
 							<div className="justify-self-center">
@@ -57,8 +57,8 @@ export default function RootLayout({
 								</Link>
 							</div>
 							<div className="justify-self-end">
-								<Link href="/dashboard" className="apple-nav-link">
-									Dashboard
+								<Link href="/ecosistema" className="apple-nav-link">
+									How works
 								</Link>
 							</div>
 						</div>

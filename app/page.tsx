@@ -49,7 +49,7 @@ export default function Home() {
 						src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiv2M5aBJZksIPk-YPaHUXWRPvWd6Ahr8mUooGsATKchmWchpIrccEI1t-0K9O17_UNF_KH3FbhBcQNedrx1GRD6WlHYhGdzcK9pggyYmbu3WJlNVrkSzxcJc4euv2wGWoMfK89uU9QJ_ULQHg-1bygizICZf3zCBx8nC1L-NYhj7l_1XkmizDxxvWVk99SCbkHYLEfwgyDkpZwtmK5DlJ3OcPQUpbAtKAzO3660mEgQcoiBqzyS32NWH_cWAhWfFfM4u9Egl1Byo"
 					/>
 					<div className="z-30 m-auto size-full flex flex-col items-center justify-center gap-5 p-5 text-white bg-linear-to-b from-black/75 via-transparent to-black/85">
-						<p className="text-xs uppercase tracking-[0.15em] text-white/80 mb-auto">
+						<p className="text-xs uppercase tracking-[0.15em] text-white/80 mb-auto text-center w-full mx-auto">
 							Associazione per la sicurezza femminile
 						</p>
 

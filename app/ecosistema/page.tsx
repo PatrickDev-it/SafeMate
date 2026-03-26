@@ -17,7 +17,7 @@ export default function EcosistemaPage() {
 						backgroundImage:
 							"url('https://lh3.googleusercontent.com/aida-public/AB6AXuBIXn4JlXer1G64gWwGsd9bjx2v5zrr_ZvhmBQfnTk7JXjiIcLgUeUjzyboK6XC9g1xgE1AkBx7Tifq00M-cNsrP6Hi2-R-_FNUp4TGL26nKK551GyhKs_DlfwizBFrV3y0CDfob5n46T8q1GMEWXlFp-uTtOhr-xvtob5qZJcZeDEdetTi39vTFeUQeK5-Ki5ryv_4RLxrf13TkaqR7wmwT8R0j-jQ3J258HZIt-Qe4KXneoMpswbi5NPYZ5Nv2KO3Q8GnnY-HO8c')",
 					}}>
-					<div className="max-w-3xl text-white">
+					<div className="max-w-3xl text-white  bg-black/35">
 						<h1 className="text-5xl font-semibold mb-5">Ecosistema SafeMate</h1>
 						<p className="text-lg text-white/90">
 							Un network tra startup, partner territoriali e iniziative sociali per aumentare sicurezza e autonomia
